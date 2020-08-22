@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/logoapp"
+        android:adjustViewBounds="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="Programmar"
+        android:layout_margin="20dp"
+
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/full_round"
+        android:id="@+id/log"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="Register with us"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/full_round"
+        android:id="@+id/regbtn"/>
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:text="About us"
+        android:layout_margin="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/full_round"
+        android:id="@+id/about"/>
+
+        </LinearLayout>
+

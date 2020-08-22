@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/logoapp">
+    </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/wel_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="sans-serif"
+        android:text="Enter details to sign up"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/emailsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="171dp"
+        android:background="@drawable/round_btn"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="Enter email..."
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/passsignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="188dp"
+        android:background="@drawable/round_btn"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:hint="Enter password..."
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/passsignupagain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp"
+        android:background="@drawable/round_btn"
+        android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+        android:hint="Enter password again..."
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/full_round"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

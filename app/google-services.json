@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "353709536179",
+    "firebase_url": "https://grammar-e663c.firebaseio.com",
+    "project_id": "grammar-e663c",
+    "storage_bucket": "grammar-e663c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353709536179:android:9c6b120e4b095ffaef91c6",
+        "android_client_info": {
+          "package_name": "com.example.navanit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353709536179-7gjn5src3nfin6iuskurfijbki6a1b90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_FB1InhxLThB9gH0ttbnSD0xrVre5aIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353709536179-7gjn5src3nfin6iuskurfijbki6a1b90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
